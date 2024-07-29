@@ -1,0 +1,56 @@
+.cabecera{
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    border: 0px black solid;
+    margin-bottom: 0;
+    display: block;
+    background-color: #FF5733;
+    box-sizing: border-box;
+    opacity: 90%;
+    font-style: normal;
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    
+}
+.cabecera h2{
+    color: white;
+    text-align: left;
+    margin-left: 8%;
+}
+h2{
+    text-align: center;
+    text-emphasis-color: rgb(189, 189, 189);
+}
+
+.contenedor{
+    position: relative;
+    margin: 20px 20% 20px 20%;
+    background-color: #FDF9F8 ;
+    font-style: normal;
+    font-family:'Lucida Sans Unicode';
+    font-weight: bold;
+    border-color: black;
+    border-width: 1px;
+    border-style: outset;
+}
+.hijo{
+
+    text-align: center;
+}
+input{
+    border: 0;
+    border-radius: 5px;
+}
+select{
+    border: 0;
+    border-radius: 5px;
+}
+textarea{
+    border:0;
+    border-radius: 10px;
+    background-color: #FDEAE5 ;
+}
+button{
+    margin-block-end: 20px;
+}

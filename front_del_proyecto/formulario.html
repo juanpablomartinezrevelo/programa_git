@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="C:/Users/prueba 1/Desktop/evidencia 1/reset.css">
+        <link rel="stylesheet" href="C:/Users/prueba 1/Desktop/evidencia 1/style_formulario.css">
+        <div>
+                <title>formulario</title>
+            </div>
+        </form>
+    </head>
+    <header class="cabecera">
+            <h2>Formulario de pedido</h2>
+    </header>
+    <body>
+        <div class="contenedor">
+            <link  href="C:/Users/prueba 1/Desktop/evidencia 1/comida.jpeg">
+            <form action="">
+                <div class="hijo">
+                    <div>
+                        <h4><strong>datos del cliente</strong></h4>
+                    </div>
+                    <div>
+                        <div>Nombre</div>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <div>Cedula</div>
+                        <input type="number" placeholder="Cedula">
+                    </div>
+                    <div>
+                        <div>Telefono</div>
+                        <input type="tel" placeholder="Telefono">
+                    </div>
+                    <div>
+                        <h4><strong>Datos del pedido</strong></h4>
+                    </div>
+
+                    <div>
+                        <div><label for="Producto">Seleccione que va a pedir</label></div>
+                        <select  name="Producto" id="Producto">
+                            <option value="number">Hamburguesa clasica </option>
+                            <option value="number">Hamburguesa mexicana</option>
+                            <option value="number">Hamburguesa tres quesos</option>
+                            <option value="number">Hamburguesa vegetariana</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <div><label for="Tamaño">Seleccione el tamaño</label></div>
+                        <select  name="Tamaño" id="Tamaño">
+                            <option value="number">Sencilla</option>
+                            <option value="number">Doble</option>
+                            <option value="number">Triple</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <div><label for="Cantidad del pedido">selecciona la cantidad que vas a pedir</label></div>
+                        <select  name="Cantidad del pedido" id="Cantidad del pedido">
+                            <option value="number">1</option>
+                            <option value="number">2</option>
+                            <option value="number">3</option>
+                            <option value="number">4</option>
+                            <option value="number">5</option>
+                            <option value="number">6</option>
+                            <option value="number">7</option>
+                            <option value="number">8</option>
+                            <option value="number">9</option>
+                            <option value="number">10</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>Descripcion del pedido</div>
+                        <textarea name="Descripcion del pedido" rows="10" cols="25"></textarea>
+                    </div>
+                    <div>
+                        <div>Direccion del pedido</div>
+                        <input type="text" placeholder="Direccion del pedido">
+                    </div>
+                    <div>
+                    <div>Fecha del pedido</div>
+                    <input type="datetime-local" placeholder="Fecha del pedido">
+                    </div>
+                    <div>
+                        <div><label for="tipo de pago">Seleccione el tipo de pago</label></div>
+                        <select  name="tipo de pago" id="tipo de pago">
+                            <option value="number">Efectivo</option>
+                            <option value="number">Tarjeta</option>
+                            <option value="number">QR</option>
+                        </select>
+                    </div>
+                    <div >
+                        <button>Subir pedido</button>
+                    </div>
+                </div>
+            </form>
+                            
+        </div>
+    </body>
+</html>
